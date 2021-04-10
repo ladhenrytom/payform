@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+.wrapper{
+    width: 30%;
+    color: rgb(7, 7, 7);
+    padding-bottom: 1.5rem;
+    background-color: rgb(214, 212, 212);
+    display: flex;
+    margin: 6% 35%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+}
+form h4{
+    margin: 0% 4%;
+}
+div.input-box{
+    display: inline-block;
+    padding-top: 0.5rem;
+    padding-bottom: 0.3rem;
+    width: 100%;
+    margin: 0% 0%;
+    margin-left: 4%;
+}
+div.input-box h4{
+    margin: 0% 0%;
+    padding-bottom: .3rem;
+}
+
+.name{
+    width: 50%;
+}
+.dob{
+    display: inline-block;
+    width: 48px;
+}
+.input-box button{
+    border-radius: 30px;
+    border: 0.8px solid black;
+    background-color: rgb(189, 187, 187);
+    transition-duration: 0.4s;
+    cursor: pointer;
+    display: block;
+}
+.input-box button:hover{
+    color: rgb(100, 100, 99);
+    background-color: grey;
+}
+@media screen and (max-width: 768px){
+    .wrapper{
+        width: 100vw;
+        padding-bottom: 0.5rem;
+        background-color: rgb(214, 212, 212);
+        display: flex;
+        margin: 0vw 0vw;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;  
+    } 
+    .input-box button{
+        border-radius: 30px;
+        border: 0.8px solid black;
+        background-color: rgb(189, 187, 187);
+        transition-duration: 0.4s;
+        cursor: pointer;
+        display: block;
+    }
+    .input-box button:hover{
+        color: rgb(100, 100, 99);
+        background-color: grey;
+    }
+}
+
+
